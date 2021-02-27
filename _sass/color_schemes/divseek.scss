@@ -1,0 +1,35 @@
+
+$divseek-blue: #0C9CD0;
+$divseek-medblue: #0b94c1;
+$divseek-drkblue: #086d8c;
+$link-color: $divseek-blue;
+
+body {
+
+  .site-title:hover {
+      background-image: linear-gradient(-90deg, $divseek-medblue 0%, rgba(12, 156, 208, 0.8) 80%, rgba(12, 156, 208, 0) 100%);
+  }
+
+  .side-bar {
+    background-color: $divseek-blue;
+    color: whitesmoke;
+
+    a {
+      color: whitesmoke;
+    }
+
+    .nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
+        background-image: linear-gradient(-90deg, $divseek-medblue 0%, rgba(12, 156, 208, 0.8) 80%, rgba(12, 156, 208, 0) 100%) !important;
+    }
+
+    .site-footer {
+      color: $divseek-drkblue;
+      a {
+        color: $divseek-drkblue;
+      }
+      a:not([class]) {
+        background-image: linear-gradient($divseek-drkblue 0%, $divseek-drkblue 100%);
+      }
+    }
+  }
+}
