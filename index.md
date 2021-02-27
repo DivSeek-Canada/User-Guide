@@ -1,6 +1,9 @@
 ---
 title: Home
-layout: home
+layout: default
+nav_order: 1
+description: "This user guide provides tutorials and information for the DivSeek Canada Portal aimed at breeders and researchers. "
+permalink: /
 ---
 
 # DivSeek Canada Portal: User Guide
