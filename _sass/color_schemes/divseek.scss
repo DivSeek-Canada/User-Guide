@@ -10,6 +10,11 @@ body {
       background-image: linear-gradient(-90deg, $divseek-medblue 0%, rgba(12, 156, 208, 0.8) 80%, rgba(12, 156, 208, 0) 100%);
   }
 
+  img.site-branding {
+    height: 40px;
+    padding-top: 15px;
+  }
+
   .side-bar {
     background-color: $divseek-blue;
     color: whitesmoke;
