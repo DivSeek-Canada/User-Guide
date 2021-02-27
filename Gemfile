@@ -7,12 +7,14 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.2.0"
-# The theme.
+# gem "jekyll", "~> 4.2.0"
+
+# Github Pages
+gem "github-pages", "~> 212", group: :jekyll_plugins
+
+# The theme we want to use.
 gem "just-the-docs"
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
-# gem "github-pages", group: :jekyll_plugins
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
